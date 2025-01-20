@@ -1,0 +1,132 @@
+.offcanvas-backdrop {
+  z-index: 1 !important;
+}
+.offcanvas-body {
+  min-height: 620px;
+}
+.user-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  list-style: none;
+}
+.user-dropdown {
+  padding: 10px 0px;
+}
+/* Hiển thị menu khi hover vào icon User */
+.user-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.user-dropdown .dropdown-menu li {
+  padding: 5px 0;
+}
+
+.user-dropdown .dropdown-menu li a,
+.user-dropdown .dropdown-menu li button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #333;
+  text-decoration: none;
+}
+
+.user-dropdown .dropdown-menu li a:hover,
+.user-dropdown .dropdown-menu li button:hover {
+  background-color: #f0f0f0;
+}
+.btn-header {
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  border-radius: 5px; /* Bo tròn góc */
+  font-size: 16px; /* Kích thước chữ */
+  font-weight: 600; /* Độ dày chữ */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  margin-left: 10px; /* Khoảng cách giữa các nút */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block; /* Hiển thị theo dạng khối */
+  color: white; /* Màu chữ chung cho cả hai nút */
+  cursor: pointer;
+}
+.btn-login {
+  margin-left: 20px;
+  background-color: #28a745; /* Màu nền xanh lá */
+  border: 1px solid #28a745; /* Đường viền xanh lá */
+}
+
+.btn-login:hover {
+  background-color: #218838; /* Màu nền xanh đậm khi hover */
+  border-color: #1e7e34; /* Đường viền xanh đậm khi hover */
+  transform: translateY(-2px); /* Hiệu ứng nổi lên khi hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bóng đổ khi hover */
+}
+
+/* CSS riêng cho nút Register */
+.btn-register {
+  background-color: #dc3545; /* Màu nền đỏ */
+  border: 1px solid #dc3545; /* Đường viền đỏ */
+}
+
+.btn-register:hover {
+  background-color: #c82333; /* Màu nền đỏ đậm khi hover */
+  border-color: #bd2130; /* Đường viền đỏ đậm khi hover */
+  transform: translateY(-2px); /* Hiệu ứng nổi lên khi hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bóng đổ khi hover */
+} /* CSS cho menu Tài khoản và Đăng xuất */
+.menu-account-item {
+  list-style-type: none; /* Loại bỏ dấu chấm đầu dòng của danh sách */
+  margin: 5px 0; /* Khoảng cách giữa các mục */
+}
+
+/* CSS cho link Tài khoản */
+.menu-account-link {
+  color: #007bff; /* Màu chữ xanh dương */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  font-weight: 600; /* Tăng độ dày chữ */
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  display: inline-block; /* Hiển thị theo dạng khối */
+  border-radius: 5px; /* Bo tròn góc */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hiệu ứng khi hover vào link Tài khoản */
+.menu-account-link:hover {
+  background-color: #e9ecef; /* Thêm màu nền khi hover */
+  color: #0056b3; /* Đổi màu chữ khi hover */
+}
+
+/* CSS cho nút Đăng xuất */
+.menu-logout-btn {
+  background-color: #dc3545; /* Màu nền đỏ */
+  color: white; /* Màu chữ trắng */
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  border: none; /* Loại bỏ viền */
+  border-radius: 5px; /* Bo tròn góc */
+  font-size: 16px; /* Kích thước chữ */
+  font-weight: 600; /* Độ dày chữ */
+  cursor: pointer; /* Thay đổi con trỏ thành dạng chỉ tay */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hiệu ứng khi hover vào nút Đăng xuất */
+.menu-logout-btn:hover {
+  background-color: #c82333; /* Màu nền đỏ đậm khi hover */
+  transform: translateY(-2px); /* Hiệu ứng nổi lên khi hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bóng đổ khi hover */
+}
+ul.submenu-nav-mega {
+  display: block !important;
+  min-width: auto !important;
+  left: 25% !important;
+}
+ul.submenu-nav-mega>li ul{
+  padding: 0px;
+}
+.header-action-btn span{
+  color: black;
+}

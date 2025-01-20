@@ -1,0 +1,64 @@
+button1 {
+    margin: 20px;
+  }
+  .custom-btn1 {
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  .btn-1 {
+    background: linear-gradient(0deg, #F8D8E7 0%, #FADADD 100%);
+    border: none;
+    color: #333; /* Màu chữ tối để dễ đọc */
+    padding: 10px 20px; /* Thêm khoảng cách bên trong */
+    border-radius: 5px; /* Bo tròn góc */
+    transition: background 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+.btn-1:hover {
+    background: linear-gradient(0deg, #FADADD 0%, #FA6AAD 100%);
+}
+
+
+.btn-1:hover {
+  background: linear-gradient(0deg, #FBA8C5 0%, #FA6AAD 50%, #F8D8E7 100%);
+  transform: translateY(-2px); /* Hiệu ứng nổi lên khi hover */
+}
+
+  .button2 {
+    background-color:  #f1adad; 
+    border: none; 
+    color: white; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; /* Sử dụng flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    font-size: 20px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 50%; 
+    transition-duration: 1.5s; 
+    text-decoration: none;
+}
+  
+  .button2:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid  #fc8080; 
+  }
+  

@@ -1,0 +1,19 @@
+
+/* Kiểu mặc định cho item */
+.vertical-menu .metismenu a {
+  color: #6c757d;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+}
+
+/* Khi item được chọn (có class active) */
+.vertical-menu .metismenu a.active {
+  background-color: #007bff; /* Màu nền khi được chọn */
+  color: white !important;              /* Màu chữ khi được chọn */
+}
+
+/* Đổi màu icon khi được chọn */
+.vertical-menu .metismenu a.active i {
+  color: white;  /* Màu icon khi được chọn */
+}

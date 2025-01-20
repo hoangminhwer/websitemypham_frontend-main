@@ -1,0 +1,49 @@
+/* Container for the description */
+#specification {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* Read more/less button */
+  .read-more-btn, .read-less-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .read-more-btn:hover, .read-less-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* For better user experience on mobile, ensure button is responsive */
+  .read-more-btn, .read-less-btn {
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+  }
+  
+  /* Transition for smooth content expansion */
+  #specification div {
+    transition: max-height 0.4s ease;
+    overflow: hidden;
+  }
+  
+  /* Ensure smooth scroll on mobile */
+  html {
+    scroll-behavior: smooth;
+  }
+  

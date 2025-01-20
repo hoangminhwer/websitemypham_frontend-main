@@ -1,0 +1,31 @@
+.product-details-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnail-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.thumbnail:hover {
+  border: 2px solid #000;
+}
+.main-image {
+  width: 383px;
+  height: 495px;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%; /* Đảm bảo ảnh chính sẽ lấp đầy khung chứa */
+  height: 100%; /* Đảm bảo ảnh sẽ vừa với khung đã định */
+  object-fit: cover; /* Đảm bảo tỷ lệ ảnh không bị méo */
+}

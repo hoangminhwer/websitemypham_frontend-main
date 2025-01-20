@@ -1,0 +1,18 @@
+.sidebar-closed .vertical-menu {
+    display: none;
+  }
+  
+  .sidebar-open .vertical-menu {
+    display: block;
+  }
+  .sidebar-open .main-content {
+    margin-left: 250px; /* Giả sử sidebar có chiều rộng 250px */
+    transition: margin-left 0.3s ease;
+  }
+  
+  .sidebar-closed .main-content {
+    margin-left: 0;
+    width: 100%;
+    transition: margin-left 0.3s ease;
+  }
+  

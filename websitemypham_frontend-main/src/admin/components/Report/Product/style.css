@@ -1,0 +1,27 @@
+.table.admin-report {
+  table-layout: fixed; /* Đặt layout bảng là cố định */
+  width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng */
+}
+
+.table.admin-report th,
+.table.admin-report td {
+  white-space: nowrap; /* Không cho phép xuống dòng */
+  overflow: hidden; /* Giấu phần văn bản thừa nếu quá dài */
+  text-overflow: ellipsis; /* Thêm dấu "..." cho văn bản quá dài */
+  max-width: 150px; /* Cố định độ rộng cột */
+}
+
+.table.admin-report th {
+  text-align: center; /* Canh giữa văn bản trong header */
+}
+
+.image-report-admin {
+  max-width: 100px; /* Giới hạn kích thước ảnh */
+}
+
+.product-name {
+  max-width: 200px; /* Độ rộng tối đa cho tên sản phẩm */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

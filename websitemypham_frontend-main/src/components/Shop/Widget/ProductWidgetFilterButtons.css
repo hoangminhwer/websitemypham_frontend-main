@@ -1,0 +1,21 @@
+.custom-price-button {
+    font-size: 14px;      /* Kích thước chữ */
+    padding: 8px 12px;    /* Khoảng cách bên trong nút */
+    margin: 5px;          /* Khoảng cách giữa các nút */
+    border-radius: 5px;   /* Độ cong của góc nút */
+    border: 1px solid #4caf50; /* Màu viền */
+    background-color: white; /* Màu nền */
+    color: #4caf50;       /* Màu chữ */
+    cursor: pointer;      /* Đổi con trỏ khi hover */
+  }
+  
+  .custom-price-button:hover {
+    background-color: #4caf50; /* Màu nền khi hover */
+    color: white;              /* Màu chữ khi hover */
+  }
+  
+  .custom-price-button.active {
+    background-color: #4caf50; /* Màu nền khi nút được chọn */
+    color: white;              /* Màu chữ khi nút được chọn */
+  }
+  

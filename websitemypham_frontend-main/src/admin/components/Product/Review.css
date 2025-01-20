@@ -1,0 +1,91 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.comment {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comment img.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.comment-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-details h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.comment-details .date {
+    color: #777;
+    font-size: 12px;
+}
+
+.comment-details .review {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.comment-details .rating {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #f59521; /* Your preferred rating color */
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    border:unset;
+}
+
+.pagination button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #f1f1f1;
+    border-color: #999;
+}
+
+.pagination button.active {
+    background-color: #f59521;
+    color: #fff;
+    border-color: #f59521;
+    font-weight: bold;
+}
+
+.pagination button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,38 @@
+body {
+  background-color: #f9f1f4 !important; /* Màu nền cho toàn bộ trang */
+  color: #333;
+}
+
+.thumbnail {
+  border: 1px solid #f4a6b8 !important;
+  background-color: #fff !important; /* Nền trắng cho thumbnail */
+}
+
+.item.list-group-item {
+  background-color: #f4a6b8 !important;
+  color: #fff !important;
+}
+
+.item.list-group-item:hover {
+  background: #fba8c5 !important;
+}
+
+.btn-success3 {
+  background-color: #f4a6b8 !important;
+  color: #fff !important;
+}
+
+.btn-success3:hover {
+  background-color: #fba8c5 !important;
+}
+.rating.home-product i:first-child {
+  margin-left: 0px;
+}
+.rating.home-product i {
+  font-family: "FontAwesome";
+  margin-left: 5px;
+  color: #ff6565;
+}
+i.fa.fa-star-o {
+  font-family: "FontAwesome";
+}

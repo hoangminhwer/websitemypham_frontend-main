@@ -1,0 +1,60 @@
+.aside-search-form {
+    position: relative;
+  }
+  
+  .search-results-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s;
+  }
+  
+  .search-result-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .search-result-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .search-result-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-result-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .search-result-price {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .no-results {
+    padding: 10px;
+    color: #999;
+    font-style: italic;
+  }
+  

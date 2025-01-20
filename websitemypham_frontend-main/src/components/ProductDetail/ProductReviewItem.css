@@ -1,0 +1,74 @@
+.img-customer-review {
+  width: 50px;
+}
+div#review {
+  margin-top: 18px;
+}
+
+/* Định dạng tổng quan cho khu vực tăng/giảm số lượng */
+.product-details-pro-qty {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pro-qty {
+  display: flex;
+  align-items: center;
+}
+
+.qty-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qty-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.value-quantity-cart {
+  width: 100px !important;
+  height: 30px !important;
+  text-align: center !important;
+  border: 1px solid #ddd !important;
+  margin: 0 5px !important;
+  padding: 20px !important;
+  font-size: 16px !important;
+}
+select#product-review-form-rating-select {
+  height: 33px !important;
+}
+/* Định dạng tổng quan cho nút SUBMIT */
+.btn-submit-review {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn-submit-review:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-submit-review:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.2);
+}

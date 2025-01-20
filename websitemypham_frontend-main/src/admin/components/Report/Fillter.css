@@ -1,0 +1,53 @@
+/* Định nghĩa chung cho các phần tử trong FilterBar */
+.form-select, .form-control {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-select:focus, .form-control:focus {
+  border-color: #007bff;
+}
+
+/* Nút chung cho tất cả các nút trong FilterBar */
+.btn-custom {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Khoảng cách giữa các nút */
+}
+
+/* Nút Tìm kiếm (Primary button) */
+.btn-search {
+  background-color: #007bff; /* Màu xanh */
+}
+
+.btn-search:hover {
+  background-color: #0056b3; /* Màu đậm khi hover */
+}
+
+/* Nút Xuất Excel (Secondary button) */
+.btn-excel {
+  background-color: #6c757d; /* Màu xám */
+}
+
+.btn-excel:hover {
+  background-color: #5a6268; /* Màu đậm khi hover */
+}
+
+/* Điều chỉnh khoảng cách giữa các phần tử trên thanh bộ lọc */
+.d-flex > * {
+  margin-right: 10px; /* Thêm khoảng cách giữa các phần tử */
+}
+
+.d-flex > *:last-child {
+  margin-right: 0; /* Bỏ khoảng cách cho phần tử cuối cùng */
+}

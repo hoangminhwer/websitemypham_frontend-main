@@ -1,0 +1,12 @@
+.navbar-header .navbar-brand-box .img-top-admin {
+    height: 30px !important;
+}
+.sub-menu {
+    display: none;
+    padding-left: 20px;
+  }
+  
+  .sub-menu.show {
+    display: block;
+  }
+  

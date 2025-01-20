@@ -1,0 +1,10 @@
+.payment-success {
+    /* background-color: #f0f0f0; */
+    text-align: center;
+    margin: 100px 0px;
+}
+.payment-failure {
+    /* background-color: #f0f0f0; */
+    text-align: center;
+    margin: 100px 0px;
+}

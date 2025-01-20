@@ -1,0 +1,55 @@
+.table1 {
+    width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng */
+    border-collapse: separate; /* Không xóa khoảng cách giữa các ô để không hiển thị viền bên trong */
+    border-spacing: 0; /* Xóa khoảng cách giữa các ô nhưng không ảnh hưởng đến viền ngoài */
+    border: 1px solid #ccc; /* Chỉ thêm viền ngoài bảng */
+    table-layout: fixed; /* Cố định chiều rộng các cột */
+  }
+  
+  .table1 th,
+  .table1 td {
+    text-align: center; /* Căn giữa nội dung trong ô */
+    padding: 10px; /* Thêm khoảng cách bên trong các ô */
+    border: none; /* Loại bỏ viền cho các ô */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */
+  }
+  
+  .product-info1 {
+    display: flex; /* Sử dụng flexbox cho cột Product */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+  }
+  
+  /* Căn giữa cho cột tổng */
+  .product-total {
+    display: flex; /* Sử dụng flexbox cho cột Total */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  .total-amount {
+    display: flex; /* Sử dụng flexbox cho cột Total */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  /* Đảm bảo cột tổng cộng có giá trị VND được căn giữa */
+  .total-label {
+    text-align: center; /* Căn giữa nội dung trong ô */
+  }
+  
+  .table-foot {
+    background-color: #f2f2f2; /* Màu nền cho hàng tổng cộng */
+    font-weight: bold; /* In đậm chữ trong hàng tổng cộng */
+  }
+  
+  /* Thêm kiểu cho hàng khi hover */
+  .table-body tr:hover {
+    background-color: #f9f9f9; /* Đổi màu nền khi di chuột qua hàng */
+  }
+  
+  /* Kiểu cho các tiêu đề cột */
+  th {
+    background-color: #f2f2f2; /* Màu nền cho tiêu đề cột */
+    font-weight: bold; /* In đậm chữ trong tiêu đề cột */
+  }

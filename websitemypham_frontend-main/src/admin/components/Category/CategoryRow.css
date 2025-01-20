@@ -1,0 +1,64 @@
+.order-row {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.btn-primary.btn-sm.btn-rounded {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary.btn-sm.btn-rounded:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Style cho các nút chỉnh sửa và xóa */
+  .text-success, .text-danger {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .text-success:hover {
+    color: #28a745;
+  }
+  
+  .text-danger:hover {
+    color: #dc3545;
+  }
+  
+  /* Căn chỉnh biểu tượng với văn bản */
+  .text-success i, .text-danger i {
+    vertical-align: middle;
+    font-size: 18px;
+  }
+/* CSS cho nút View Details */
+.custom-button {
+    background-color: #007bff; /* Màu nền của nút */
+    color: #fff; /* Màu chữ */
+    border: none; /* Loại bỏ viền mặc định */
+    border-radius: 4px; /* Bo tròn các góc */
+    padding: 8px 16px; /* Khoảng cách bên trong của nút */
+    font-size: 14px; /* Kích thước chữ */
+    cursor: pointer; /* Hiển thị biểu tượng con trỏ khi hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Hiệu ứng chuyển đổi màu nền và thu nhỏ */
+    font-family: 'Roboto', sans-serif; /* Font chữ tùy chọn */
+    display: inline-block;
+}
+.custom-button:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+}
+.custom-button:active {
+    background-color: #004085; /* Màu nền khi nhấn */
+    transform: scale(0.98); /* Hiệu ứng thu nhỏ khi nhấn */
+}
+/* Đảm bảo chữ không bị giãn */
+.custom-button {
+    letter-spacing: normal;
+    word-spacing: normal;
+}
